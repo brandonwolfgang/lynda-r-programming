@@ -14,18 +14,8 @@ ls()  # List objects
 # Don't have to specify delimiters for missing data
 # because CSV means "comma separated values"
 # "header = T" means the first line is a header
-# This first one will not work because of the backslashes
-sn.csv <- read.csv("~/dev/lynda/up-and-running-with-r/Exercise Files/Ch02/02_04/social_network.csv", header = T)
-# Need to either double up the backslashes...
-sn.csv <- read.csv("~/dev/lynda/up-and-running-with-r/Exercise Files/Ch02/02_04/social_network.csv", header = T)
-# Or replace with forward slashes
 sn.csv <- read.csv("~/dev/lynda/up-and-running-with-r/Exercise Files/Ch02/02_04/social_network.csv", header = T)
 str(sn.csv)
-
-# SPSS FILES
-# Saved as .csv in SPSS
-sn.spss.csv <- read.csv("~/dev/lynda/up-and-running-with-r/Exercise Files/Ch02/02_04/social_network_spss.csv", header = T)
-str(sn.spss.csv)
 
 # Using package "foreign"
 # Gets warnings but no errors
