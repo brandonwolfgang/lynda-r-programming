@@ -1,2 +1,2 @@
-# lynda-r-programming
-Files used/created during Lynda.com R Programming course
+# up-and-running-with-r
+Files used/created during Up and Running with R from Lynda.com.
