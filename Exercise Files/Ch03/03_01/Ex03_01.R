@@ -9,7 +9,7 @@
 # per week.
 
 # Create data frame "sn" from CSV file w/headers
-sn <- read.csv("social_network.csv", header = T)
+sn <- read.csv("~/dev/lynda/up-and-running-with-r/Exercise Files/Ch03/03_01/social_network.csv", header = T)
 
 # R doesn't create bar charts directly from the categorical
 # variables; instead, we must first create a table that

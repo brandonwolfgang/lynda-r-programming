@@ -9,7 +9,7 @@
 # per week.
 
 # Create data frame "sn" from CSV file w/headers
-sn <- read.csv("social_network.csv", header = T)
+sn <- read.csv("~/dev/lynda/up-and-running-with-r/Exercise Files/Ch03/03_02/social_network.csv", header = T)
 
 # Make a histogram of Age using the defaults
 hist(sn$Age)
